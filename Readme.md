@@ -1,40 +1,44 @@
+# Kullanıcının istediği gibi: küçük görsel gösterip tıklayınca büyük açılan tam linkli README oluşturuyoruz
 
+ready_readme_with_links = """
 # Machine Learning Course GUI
 
 ## 📚 Project Overview
 
-This project is a **professional Machine Learning GUI** developed as part of the MKT3434 course at Yildiz Technical University. It enables students, researchers, and engineers to perform supervised learning, clustering, dimensionality reduction, and model evaluation **without coding**, using a fully interactive interface.
+This project presents a graphical user interface (GUI) developed for the Machine Learning course (MKT 3434).  
+It allows users to apply various **machine learning** and **dimensionality reduction** techniques interactively on popular datasets like Iris and Breast Cancer datasets.
 
-The application uses powerful libraries:
-- **Python 3.10**
-- **scikit-learn** (Machine Learning)
-- **TensorFlow Keras** (Deep Learning)
-- **UMAP-learn** (Dimensionality Reduction)
-- **Plotly** (Interactive Visualizations)
-- **PyQt6** (GUI Development)
+Key focus areas:
+- Dimensionality Reduction (PCA, LDA, t-SNE, UMAP)
+- Clustering (KMeans, Elbow Method)
+- Supervised Learning (Regression, Classification)
+- Model Evaluation with K-Fold Cross-Validation
+- Neural Networks (Basic MLP training)
+
+[![Initial View](./Screet_shots_new/nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.jpg)
 
 ---
 
 ## ✨ Features
 
-- **Dataset Management:** Load built-in or custom datasets, apply scaling, split into Train/Validation/Test.
-- **Dimensionality Reduction:** PCA, LDA, t-SNE, and UMAP with full visualization.
-- **Clustering:** KMeans with Elbow Method for optimal `k`, and clustering quality analysis.
-- **Supervised Learning:** Train Logistic Regression, Decision Tree, Random Forest, SVM, Naive Bayes, Linear Regression.
-- **Cross-Validation:** Perform 5-Fold CV with selectable metrics (Accuracy, MSE, RMSE).
-- **Neural Network Training:** Build and train MLP models manually (dynamic layer creation).
-- **Dynamic Visualization:** Interactive charts of performance metrics and projections.
-- **Error Handling:** All critical actions wrapped with user-friendly error dialogs.
+- **Dataset Management:** Load built-in or custom CSV datasets, flexible Train/Validation/Test splitting, and scaling options.
+- **Dimensionality Reduction:** Apply PCA, LDA, t-SNE, and UMAP with visualizations.
+- **Clustering:** Perform KMeans clustering, determine optimal `k` using Elbow Method, and visualize clusters.
+- **Supervised Learning:** Train models like Logistic Regression, Decision Trees, Random Forest, Naive Bayes, and Support Vector Machines.
+- **Cross-Validation:** 5-Fold CV with model and metric selection (Accuracy, MSE, RMSE).
+- **Neural Network Training:** Configure and train Multi-Layer Perceptron (MLP) models.
+- **Dynamic Visualization:** Automatic plotting of evaluation results and training history.
+- **Interactive Controls:** Real-time parameter tuning for projections, clustering, and model training.
 
 ---
 
-## 📊 Datasets Supported
+## 📊 Datasets Used
 
 - Iris Dataset
 - Breast Cancer Dataset
 - Digits Dataset
 - California Housing Dataset
-- Custom CSV Uploads
+- Custom CSV Datasets (user-uploaded)
 
 ---
 
@@ -42,19 +46,17 @@ The application uses powerful libraries:
 
 | Feature | Description | Image |
 |:--------|:------------|:------|
-| **PCA** | Visualizes explained variance, shows first principal component direction. | [![PCA Explained Variance](./Ekran%20görüntüleri/PCA%20Explained%20Variance%20Ratio.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/PCA%20Explained%20Variance%20Ratio.png) |
-| **Eigenvectors** | Calculates eigenvalues and eigenvectors of a covariance matrix. | [![Eigenvalues & Eigenvectors](./Ekran%20görüntüleri/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png) |
-| **First Principal Component** | Projects data along the 1st PC direction. | [![PCA Direction Vector](./Ekran%20görüntüleri/First%20Principal%20Component%20Visualization.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/First%20Principal%20Component%20Visualization.png) |
-| **LDA** | Class separation using Linear Discriminants. | [![LDA Projection](./Ekran%20görüntüleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png) |
-| **t-SNE 2D** | t-SNE projection preserving local structure. | [![t-SNE 2D](./Ekran%20görüntüleri/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.png) |
-| **t-SNE 3D** | 3D t-SNE visualization of data. | [![t-SNE 3D](./Ekran%20görüntüleri/7B%20t-SNE%20Projection%20(3D).png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/7B%20t-SNE%20Projection%20(3D).png) |
-| **UMAP** | Faster t-SNE alternative for local-global structure. | [![UMAP Projection](./Ekran%20görüntüleri/UMAP%20Projection%20(3D).png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/UMAP%20Projection%20(3D).png) |
-| **KMeans** | Cluster analysis + Elbow Method. | [![KMeans & Elbow](./Ekran%20görüntüleri/K-Means%20Clustering%20Results%20and%20Elbow%20Method.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/K-Means%20Clustering%20Results%20and%20Elbow%20Method.png) |
-| **Plotly KMeans** | Interactive cluster visualization. | [![KMeans Plotly](./Ekran%20görüntüleri/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Ekran%20görüntüleri/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png) |
+| **PCA** | Visualizes explained variance, shows first principal component direction. | [![PCA Explained Variance](./Screet_shots_new/PCA%20Explained%20Variance%20Ratio.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/PCA%20Explained%20Variance%20Ratio.jpg) |
+| **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. | [![Eigenvalues & Eigenvectors](./Screet_shots_new/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.jpg) |
+| **First Principal Component** | Visualizes the direction vector of the first principal component. | [![PCA Direction Vector](./Screet_shots_new/First%20Principal%20Component%20Visualization.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/First%20Principal%20Component%20Visualization.jpg) |
+| **LDA** | Projects dataset onto Linear Discriminants for class separation. | [![LDA Projection](./Screet_shots_new/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.jpg) |
+| **t-SNE** | Projects dataset into 2D preserving local similarities. | [![t-SNE 2D](./Screet_shots_new/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.jpg) |
+| **t-SNE (3D)** | Visualizes dataset structure in 3D space. | [![t-SNE 3D](./Screet_shots_new/7B%20t-SNE%20Projection%20(3D).jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/7B%20t-SNE%20Projection%20(3D).jpg) |
+| **UMAP** | Faster alternative to t-SNE, preserving local and global structures. | [![UMAP Projection](./Screet_shots_new/UMAP%20Projection%20(3D).jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/UMAP%20Projection%20(3D).jpg) |
+| **KMeans** | Cluster analysis with Elbow method and visualization. | [![KMeans & Elbow](./Screet_shots_new/K-Means%20Clustering%20Results%20and%20Elbow%20Method.jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/K-Means%20Clustering%20Results%20and%20Elbow%20Method.jpg) |
+| **Plotly KMeans** | Interactive clustering visualization. | [![KMeans Plotly](./Screet_shots_new/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).jpg)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/main/Screet_shots_new/Means%20Clustering%20Visualized%20with%20Plotly%20(k%3D3).jpg) |
 
 ---
-
-
 
 ## 🚀 How to Run
 
