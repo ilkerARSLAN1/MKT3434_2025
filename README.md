@@ -13,6 +13,8 @@ Key focus areas:
 - Model Evaluation with K-Fold Cross-Validation
 - Neural Networks (Basic MLP training)
 
+![Initial View](./nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.png)
+
 ---
 
 ## ✨ Features
@@ -40,16 +42,17 @@ Key focus areas:
 
 ## 🛠️ Main Functionalities
 
-| Feature | Description |
-|:--------|:------------|
-| **PCA** | Visualizes explained variance, shows first principal component direction. |
-| **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. |
-| **LDA** | Projects dataset onto Linear Discriminants for class separation. |
-| **t-SNE** | Projects dataset into 2D or 3D preserving local similarities. |
-| **UMAP** | Faster alternative to t-SNE, preserving local and global structures. |
-| **KMeans** | Cluster analysis with Elbow method and alternative cluster quality scores. |
-| **Cross Validation** | Perform model evaluation using 5-Fold CV, dynamic model/metric selection. |
-| **Neural Networks** | Build and train basic MLP architectures manually. |
+| Feature | Description | Image |
+|:--------|:------------|:------|
+| **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance](./PCA%20Explained%20Variance%20Ratio.png) |
+| **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. | ![Eigenvalues & Eigenvectors](./Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png) |
+| **First Principal Component** | Visualizes the direction vector of the first principal component. | ![PCA Direction Vector](./First%20Principal%20Component%20Visualization.png) |
+| **LDA** | Projects dataset onto Linear Discriminants for class separation. | ![LDA Projection](./Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png) |
+| **t-SNE** | Projects dataset into 2D preserving local similarities. | ![t-SNE 2D](./t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.png) |
+| **t-SNE (3D)** | Visualizes dataset structure in 3D space. | ![t-SNE 3D](./7B%20t-SNE%20Projection%20(3D).png) |
+| **UMAP** | Faster alternative to t-SNE, preserving local and global structures. | ![UMAP Projection](./UMAP%20Projection%20(3D).png) |
+| **KMeans** | Cluster analysis with Elbow method and visualization. | ![KMeans & Elbow](./K-Means%20Clustering%20Results%20and%20Elbow%20Method.png) |
+| **Plotly KMeans** | Interactive clustering visualization. | ![KMeans Plotly](./Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png) |
 
 ---
 
@@ -108,4 +111,4 @@ python main.py
 ### ✏️ Author
 
 > İlker Arslan  
-> Gazi University | Industrial Engineering | 21067024
+> Yıldız Technic University | Mechatronic Eng| 21067024
