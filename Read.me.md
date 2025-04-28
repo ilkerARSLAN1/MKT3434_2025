@@ -1,6 +1,6 @@
-# Kullanıcının istediği gibi, görsel yolları "Ekran görüntüleri" klasörünü referans gösterecek şekilde düzenlenmiş README.md oluşturuyoruz.
+# Kullanıcının son mesajında verdiği içerikteki görsel isim hatalarını düzeltiyorum ve hazır README dosyası olarak kaydediyorum.
 
-readme_updated_content = """
+fixed_readme_content = """
 # Machine Learning Course GUI
 
 ## 📚 Project Overview
@@ -46,7 +46,7 @@ Key focus areas:
 
 | Feature | Description | Image |
 |:--------|:------------|:------|
-| **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/PCA%20Explained%20Variance%20Ratio.png) |
+| **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/PCA%20A%C3%A7%C4%B1klanm%C4%B1%C5%9F%20Varyans.png) |
 | **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. | ![Eigenvalues & Eigenvectors](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png) |
 | **First Principal Component** | Visualizes the direction vector of the first principal component. | ![PCA Direction Vector](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/First%20Principal%20Component%20Visualization.png) |
 | **LDA** | Projects dataset onto Linear Discriminants for class separation. | ![LDA Projection](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png) |
@@ -57,6 +57,7 @@ Key focus areas:
 | **Plotly KMeans** | Interactive clustering visualization. | ![KMeans Plotly](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png) |
 
 ---
+
 
 
 ## 🚀 How to Run
