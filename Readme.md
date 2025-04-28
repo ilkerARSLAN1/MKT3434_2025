@@ -14,7 +14,7 @@ Key focus areas:
 - Model Evaluation with K-Fold Cross-Validation
 - Neural Networks (Basic MLP training)
 
-![Initial View](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.png)
+![Initial View][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/nitial%20view%20of%20the%20Machine%20Learning%20Course%20GUI.jpg)
 
 ---
 
@@ -47,13 +47,13 @@ Key focus areas:
 |:--------|:------------|:------|
 | **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance] ](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/1fb1d33e41cef53d36f69b4f41da0b8741d2bec7/Screet_shots_new/PCA%20Explained%20Variance%20Ratio.jpg) |
 | **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. | ![Eigenvalues & Eigenvectors][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/667bdc15a91663301813ca05bff0c4d84ed0c87f/Screet_shots_new/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.jpg) |
-| **First Principal Component** | Visualizes the direction vector of the first principal component. | ![PCA Direction Vector](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/First%20Principal%20Component%20Visualization.png) |
-| **LDA** | Projects dataset onto Linear Discriminants for class separation. | ![LDA Projection](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png) |
-| **t-SNE** | Projects dataset into 2D preserving local similarities. | ![t-SNE 2D](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.png) |
-| **t-SNE (3D)** | Visualizes dataset structure in 3D space. | ![t-SNE 3D](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/7B%20t-SNE%20Projection%20(3D).png) |
-| **UMAP** | Faster alternative to t-SNE, preserving local and global structures. | ![UMAP Projection](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/UMAP%20Projection%20(3D).png) |
-| **KMeans** | Cluster analysis with Elbow method and visualization. | ![KMeans & Elbow](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/K-Means%20Clustering%20Results%20and%20Elbow%20Method.png) |
-| **Plotly KMeans** | Interactive clustering visualization. | ![KMeans Plotly](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png) |
+| **First Principal Component** | Visualizes the direction vector of the first principal component. | ![PCA Direction Vector][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/First%20Principal%20Component%20Visualization.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/First%20Principal%20Component%20Visualization.jpg) |
+| **LDA** | Projects dataset onto Linear Discriminants for class separation. | ![LDA Projection][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.jpg) |
+| **t-SNE** | Projects dataset into 2D preserving local similarities. | ![t-SNE 2D][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.png) ](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/7B%20t-SNE%20Projection%20(3D).jpg)|
+| **t-SNE (3D)** | Visualizes dataset structure in 3D space. | ![t-SNE 3D][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/7B%20t-SNE%20Projection%20(3D).png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/t-SNE%20Projection%20of%20the%20Breast%20Cancer%20Dataset.jpg) |
+| **UMAP** | Faster alternative to t-SNE, preserving local and global structures. | ![UMAP Projection][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/UMAP%20Projection%20(3D).png) ](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/UMAP%20Projection%20of%20the%20Breast%20Cancer%20Dataset.jpg)|
+| **KMeans** | Cluster analysis with Elbow method and visualization. | ![KMeans & Elbow][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/K-Means%20Clustering%20Results%20and%20Elbow%20Method.png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/K-Means%20Clustering%20Results%20and%20Elbow%20Method.jpg) |
+| **Plotly KMeans** | Interactive clustering visualization. | ![KMeans Plotly][(./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Means%20Clustering%20Visualized%20with%20Plotly%20(k=3).png)](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/ec6f5bbb89fae4f6ba5778a47f4cb33e26aa9d98/Screet_shots_new/Means%20Clustering%20Visualized%20with%20Plotly%20(k%3D3).jpg) |
 
 ---
 
