@@ -1,6 +1,4 @@
-# Kullanıcının istediği gibi: küçük görsel gösterip tıklayınca büyük açılan tam linkli README oluşturuyoruz
 
-ready_readme_with_links = """
 # Machine Learning Course GUI
 
 ## 📚 Project Overview
