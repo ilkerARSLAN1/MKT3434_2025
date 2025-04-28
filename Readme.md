@@ -45,7 +45,7 @@ Key focus areas:
 
 | Feature | Description | Image |
 |:--------|:------------|:------|
-| **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/PCA%20A%C3%A7%C4%B1klanm%C4%B1%C5%9F%20Varyans.png) |
+| **PCA** | Visualizes explained variance, shows first principal component direction. | ![PCA Explained Variance](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/PCA%20A%C3%A7%C4%B1klanm%C4%B1%C5%9F%20Varyans.png) ](https://github.com/ilkerARSLAN1/MKT3434_2025/blob/1fb1d33e41cef53d36f69b4f41da0b8741d2bec7/Screet_shots_new/PCA%20Explained%20Variance%20Ratio.jpg) |
 | **Eigenvectors** | Calculates eigenvalues and eigenvectors of a custom covariance matrix. | ![Eigenvalues & Eigenvectors](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Eigenvalues%20and%20Eigenvectors%20from%20Covariance%20Matrix%20%CE%A3.png) |
 | **First Principal Component** | Visualizes the direction vector of the first principal component. | ![PCA Direction Vector](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/First%20Principal%20Component%20Visualization.png) |
 | **LDA** | Projects dataset onto Linear Discriminants for class separation. | ![LDA Projection](./Ekran%20g%C3%B6r%C3%BCnt%C3%BCleri/Linear%20Discriminant%20Analysis%20(LDA)%20Projection.png) |
